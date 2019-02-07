@@ -18,7 +18,7 @@ public class LoginTest extends BaseTest {
 	public void Login_Test_TC_01() throws FileNotFoundException, IOException, InterruptedException
 	{
 		//Creating report
-		test = extent.createTest("Login_Test_TC_01");
+		test = extent.createTest("Verify Login with valid credentials");
 		
 		
 		//Creating object for the Login Class

@@ -46,7 +46,7 @@ public class DashboardTest extends BaseTest {
 		login.logoutFromApp();
 	}
 	
-	//@Test(priority=1,description="Verify Version Numaber from Dashboard Page with About Page")
+	@Test(priority=1,description="Verify Version Numaber from Dashboard Page with About Page")
 	public void Dashboard_TC_04() throws FileNotFoundException, IOException, InterruptedException
 	{
 		//Creating report

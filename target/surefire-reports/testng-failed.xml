@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.papercutNG.login.LoginTest">
+        <methods>
+          <include name="Login_Test_TC_01"/>
+          <include name="beforeTestSuite"/>
+          <include name="validateTestCase"/>
+          <include name="afterTest"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.papercutNG.login.LoginTest -->
+      <class name="com.papercutNG.dashboard.DashboardTest">
+        <methods>
+          <include name="Dashboard_TC_03"/>
+          <include name="beforeTestSuite"/>
+          <include name="Dashboard_TC_04"/>
+          <include name="validateTestCase"/>
+          <include name="afterTest"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.papercutNG.dashboard.DashboardTest -->
+      <class name="com.papercutNG.dashboard.MenuTest">
+        <methods>
+          <include name="beforeTestSuite"/>
+          <include name="validateTestCase"/>
+          <include name="afterTest"/>
+          <include name="Menu_Links_TC_02"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.papercutNG.dashboard.MenuTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

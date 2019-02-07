@@ -46,14 +46,14 @@ public class BaseTest
 	@BeforeSuite
 	public void beforeTestSuite() throws UnknownHostException
 	{
-		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"\\ExtentReports\\SmokeTest_Result.html");
+		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"\\TestResults\\PapercutNG_Test_Automation_Results.html");
 		extent= new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		
 		extent.setSystemInfo("OS", System.getProperty("os.name"));
 		extent.setSystemInfo("Host Name", InetAddress.getLocalHost().getHostName());
 		extent.setSystemInfo("Environment Name", "UAT");
-		extent.setSystemInfo("User Name", System.getProperty("user.name"));
+		extent.setSystemInfo("User Name", "HSAnitha");
 		
 		htmlReporter.config().setChartVisibilityOnOpen(true);
 		htmlReporter.config().setDocumentTitle("Test Summary Report");

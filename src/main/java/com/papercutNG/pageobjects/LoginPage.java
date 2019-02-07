@@ -56,7 +56,7 @@ public class LoginPage {
 	
 	
 	//logout
-	@FindBy(how=How.XPATH, using="//a[@href='/app?service=direct/1/Dashboard/$Border.logoutLink']")
+	@FindBy(how=How.XPATH, using="//span[@class='logout']")
 	private WebElement logout;
 	
 	public WebElement getLogout()
