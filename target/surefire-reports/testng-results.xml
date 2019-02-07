@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51786" started-at="2019-02-07T17:45:43Z" finished-at="2019-02-07T17:46:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51786" started-at="2019-02-07T17:45:43Z" finished-at="2019-02-07T17:46:34Z">
+      <class name="com.papercutNG.login.LoginTest">
+        <test-method status="PASS" signature="beforeTestSuite()[pri:0, instance:com.papercutNG.login.LoginTest@3b81a1bc]" name="beforeTestSuite" is-config="true" duration-ms="258" started-at="2019-02-07T17:45:42Z" finished-at="2019-02-07T17:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestSuite -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.papercutNG.login.LoginTest@3b81a1bc]" name="launchBrowser" is-config="true" duration-ms="7714" started-at="2019-02-07T17:45:43Z" finished-at="2019-02-07T17:45:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="Login_Test_TC_01()[pri:1, instance:com.papercutNG.login.LoginTest@3b81a1bc]" name="Login_Test_TC_01" duration-ms="4509" started-at="2019-02-07T17:45:50Z" description="Verify Login page with valid data" finished-at="2019-02-07T17:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test_TC_01 -->
+        <test-method status="PASS" signature="validateTestCase(org.testng.ITestResult)[pri:0, instance:com.papercutNG.login.LoginTest@3b81a1bc]" name="validateTestCase" is-config="true" duration-ms="6081" started-at="2019-02-07T17:45:55Z" finished-at="2019-02-07T17:46:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_Test_TC_01 status=SUCCESS method=LoginTest.Login_Test_TC_01()[pri:1, instance:com.papercutNG.login.LoginTest@3b81a1bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTestCase -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.papercutNG.login.LoginTest@3b81a1bc]" name="afterTest" is-config="true" duration-ms="482" started-at="2019-02-07T17:46:35Z" finished-at="2019-02-07T17:46:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.papercutNG.login.LoginTest -->
+      <class name="com.papercutNG.dashboard.DashboardTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.papercutNG.dashboard.DashboardTest@64616ca2]" name="launchBrowser" is-config="true" duration-ms="6252" started-at="2019-02-07T17:46:01Z" finished-at="2019-02-07T17:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="Dashboard_TC_03()[pri:1, instance:com.papercutNG.dashboard.DashboardTest@64616ca2]" name="Dashboard_TC_03" duration-ms="4255" started-at="2019-02-07T17:46:07Z" description="Verify Build Numaber in Dashboard Page with About Page" finished-at="2019-02-07T17:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dashboard_TC_03 -->
+        <test-method status="PASS" signature="validateTestCase(org.testng.ITestResult)[pri:0, instance:com.papercutNG.dashboard.DashboardTest@64616ca2]" name="validateTestCase" is-config="true" duration-ms="6002" started-at="2019-02-07T17:46:11Z" finished-at="2019-02-07T17:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Dashboard_TC_03 status=SUCCESS method=DashboardTest.Dashboard_TC_03()[pri:1, instance:com.papercutNG.dashboard.DashboardTest@64616ca2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTestCase -->
+      </class> <!-- com.papercutNG.dashboard.DashboardTest -->
+      <class name="com.papercutNG.dashboard.MenuTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.papercutNG.dashboard.MenuTest@13fee20c]" name="launchBrowser" is-config="true" duration-ms="6031" started-at="2019-02-07T17:46:17Z" finished-at="2019-02-07T17:46:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="Menu_Links_TC_02()[pri:1, instance:com.papercutNG.dashboard.MenuTest@13fee20c]" name="Menu_Links_TC_02" duration-ms="4923" started-at="2019-02-07T17:46:24Z" description="Verify Number of links in Home Page" finished-at="2019-02-07T17:46:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Menu_Links_TC_02 -->
+        <test-method status="PASS" signature="validateTestCase(org.testng.ITestResult)[pri:0, instance:com.papercutNG.dashboard.MenuTest@13fee20c]" name="validateTestCase" is-config="true" duration-ms="5997" started-at="2019-02-07T17:46:28Z" finished-at="2019-02-07T17:46:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Menu_Links_TC_02 status=SUCCESS method=MenuTest.Menu_Links_TC_02()[pri:1, instance:com.papercutNG.dashboard.MenuTest@13fee20c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTestCase -->
+      </class> <!-- com.papercutNG.dashboard.MenuTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
